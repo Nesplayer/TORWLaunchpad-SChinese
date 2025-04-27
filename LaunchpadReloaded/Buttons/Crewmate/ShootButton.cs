@@ -1,6 +1,7 @@
 ﻿using Il2CppSystem;
 using LaunchpadReloaded.Features;
 using LaunchpadReloaded.Options.Roles.Crewmate;
+using LaunchpadReloaded.Translations;
 using LaunchpadReloaded.Roles.Crewmate;
 using MiraAPI.GameOptions;
 using MiraAPI.Networking;
@@ -12,7 +13,12 @@ namespace LaunchpadReloaded.Buttons.Crewmate;
 
 public class ShootButton : BaseLaunchpadButton<PlayerControl>
 {
-    public override string Name => "Shoot";
+    public override string Name => ButtonName.GetTranslatedText();
+    public TranslationPool ButtonName = new TranslationPool(
+        english: "Shoot",
+        spanish: "Disparar",
+        french: "Tirer"
+    );
     public override float Cooldown => OptionGroupSingleton<SheriffOptions>.Instance.ShotCooldown;
     public override float EffectDuration => 0;
     public override int MaxUses => (int)OptionGroupSingleton<SheriffOptions>.Instance.ShotsPerGame;
