@@ -4,12 +4,14 @@ using LaunchpadReloaded.Modifiers;
 using LaunchpadReloaded.Options.Modifiers.Crewmate;
 using MiraAPI.GameOptions;
 using MiraAPI.Modifiers;
+using MiraAPI.PluginLoading;
 using MiraAPI.Utilities;
 using MiraAPI.Utilities.Assets;
 using UnityEngine;
 
 namespace LaunchpadReloaded.Buttons.Modifiers;
 
+[MiraIgnore]
 public class VendettaMarkButton : BaseLaunchpadButton<PlayerControl>
 {
     public override string Name => "Mark";
