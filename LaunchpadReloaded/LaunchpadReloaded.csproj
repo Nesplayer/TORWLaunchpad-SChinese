@@ -31,8 +31,8 @@
     </ItemGroup>
     
     <ItemGroup>
-        <EmbeddedResource Condition="$(Platform)=='AnyCPU'" Include="Resources/assets-win.bundle" />
-        <EmbeddedResource Condition="$(Platform)=='Android'" Include="Resources/assets-android.bundle" />
+        <EmbeddedResource Condition="$(Platform)=='AnyCPU'" Include="Resources/launchpad-assets-win.bundle" />
+        <EmbeddedResource Condition="$(Platform)=='Android'" Include="Resources/launchpad-assets-android.bundle" />
         <EmbeddedResource Include="Resources/**/*.png" />
     </ItemGroup>
     
