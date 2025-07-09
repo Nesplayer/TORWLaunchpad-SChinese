@@ -3,13 +3,12 @@
         <TargetFramework>net6.0</TargetFramework>
         <LangVersion>latest</LangVersion>
         <DebugType>embedded</DebugType>
-        <Version>0.3.5</Version>
+        <Version>1.1.1</Version>
         <Description>Launchpad Mod for new roles and gamemodes</Description>
         <Authors>XtraCube, angxlwtf, Daemon</Authors>
         <Nullable>enable</Nullable>
         <Configurations>Debug;Release</Configurations>
         <Platforms>AnyCPU;Android</Platforms>
-        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Platform)' == 'Android' ">
         <DefineConstants>TRACE;ANDROID</DefineConstants>
@@ -20,6 +19,7 @@
     
     <ItemGroup>
         <PackageReference Include="AllOfUs.MiraAPI" Version="0.2.0" />
+        <PackageReference Include="BepInEx.Unity.Common" Version="6.0.0-be.738" />
         <PackageReference Include="Reactor" Version="2.3.1" />
         <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.735" Private="false" ExcludeAssets="runtime;native" />
         <PackageReference Condition="$(Platform)=='Android'" Include="AmongUs.GameLibs.Android" Version="2025.6.10" PrivateAssets="all" />
@@ -29,7 +29,7 @@
             <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
     </ItemGroup>
-    
+
     <ItemGroup>
         <EmbeddedResource Condition="$(Platform)=='AnyCPU'" Include="Resources/launchpad-assets-win.bundle" />
         <EmbeddedResource Condition="$(Platform)=='Android'" Include="Resources/launchpad-assets-android.bundle" />

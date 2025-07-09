@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Impostor;
 
-public class HitmanRole(IntPtr ptr) : ImpostorRole(ptr), ICustomRole
+public class HitmanRole(IntPtr ptr) : ImpostorRole(ptr), IImpostorRole
 {
     public string RoleName => "Hitman";
     public string RoleDescription => "Slow down time and kill the Crewmates.";

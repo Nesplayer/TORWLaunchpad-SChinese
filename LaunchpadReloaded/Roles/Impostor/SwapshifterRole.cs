@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Impostor;
 
-public class SwapshifterRole(IntPtr ptr) : ImpostorRole(ptr), ICustomRole
+public class SwapshifterRole(IntPtr ptr) : ImpostorRole(ptr), IImpostorRole
 {
     public string RoleName => "Swapshifter";
     public string RoleDescription => "Shift and swap into other players.";

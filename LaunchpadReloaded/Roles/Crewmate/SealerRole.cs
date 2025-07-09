@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Crewmate;
 
-public class SealerRole(IntPtr ptr) : CrewmateRole(ptr), ICustomRole
+public class SealerRole(IntPtr ptr) : CrewmateRole(ptr), ICrewmateRole
 {
     public string RoleName => "Sealer";
     public string RoleDescription => "Seal vents around the map.";

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Impostor;
 
-public class HackerRole(IntPtr ptr) : ImpostorRole(ptr), ICustomRole
+public class HackerRole(IntPtr ptr) : ImpostorRole(ptr), IImpostorRole
 {
     public string RoleName => "Hacker";
     public string RoleDescription => "Hack meetings and sabotage the crewmates";

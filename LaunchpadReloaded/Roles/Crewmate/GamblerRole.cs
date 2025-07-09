@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Crewmate;
 
-public class GamblerRole(IntPtr ptr) : CrewmateRole(ptr), ICustomRole
+public class GamblerRole(IntPtr ptr) : CrewmateRole(ptr), ICrewmateRole
 {
     public string RoleName => "Gambler";
     public string RoleDescription => "Guess a player's role to reveal it!";

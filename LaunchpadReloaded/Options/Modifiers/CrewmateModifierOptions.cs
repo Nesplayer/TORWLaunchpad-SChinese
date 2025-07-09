@@ -1,4 +1,5 @@
 using MiraAPI.GameOptions;
+using LaunchpadReloaded.Features;
 using MiraAPI.GameOptions.Attributes;
 using MiraAPI.Utilities;
 using UnityEngine;
@@ -9,7 +10,7 @@ public class CrewmateModifierOptions : AbstractOptionGroup
 {
     public override string GroupName => "Crewmate Modifiers";
     public override bool ShowInModifiersMenu => true;
-    public override Color GroupColor => Palette.CrewmateRoleHeaderBlue;
+    public override Color GroupColor => LaunchpadPalette.CrewMenu;
 
     [ModdedNumberOption("Mayor Chance", 0f, 100f, 10f, suffixType: MiraNumberSuffixes.Percent)]
     public float MayorChance { get; set; } = 0f;

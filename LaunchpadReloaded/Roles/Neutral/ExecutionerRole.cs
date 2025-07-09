@@ -4,6 +4,7 @@ using LaunchpadReloaded.Components;
 using LaunchpadReloaded.Features;
 using LaunchpadReloaded.GameOver;
 using LaunchpadReloaded.Options.Roles.Neutral;
+using LaunchpadReloaded.Roles.Neutral;
 using MiraAPI.Events;
 using MiraAPI.Events.Vanilla.Gameplay;
 using MiraAPI.Events.Vanilla.Player;
@@ -15,9 +16,9 @@ using MiraAPI.Utilities;
 using Reactor.Utilities.Extensions;
 using UnityEngine;
 
-namespace LaunchpadReloaded.Roles.Outcast;
+namespace LaunchpadReloaded.Roles.Neutral;
 
-public class ExecutionerRole(System.IntPtr ptr) : RoleBehaviour(ptr), IOutcastRole
+public class ExecutionerRole(System.IntPtr ptr) : RoleBehaviour(ptr), INeutralRole
 {
     public string RoleName => "Executioner";
     public string RoleDescription => $"Get <b>{(target ? target!.Data.PlayerName : "your target")}</b> voted out to win.";
@@ -36,7 +37,7 @@ public class ExecutionerRole(System.IntPtr ptr) : RoleBehaviour(ptr), IOutcastRo
     {
         Name = "ExeTarget",
         Text = "Target",
-        Color = LaunchpadPalette.ExecutionerColor.LightenColor(),
+        Color = LaunchpadPalette.ExeTargetColor,
         IsLocallyVisible = _ => true,
     };
 

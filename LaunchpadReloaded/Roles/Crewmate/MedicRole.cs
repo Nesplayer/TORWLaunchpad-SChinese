@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Crewmate;
 
-public class MedicRole(IntPtr ptr) : CrewmateRole(ptr), ICustomRole
+public class MedicRole(IntPtr ptr) : CrewmateRole(ptr), ICrewmateRole
 {
     public string RoleName => "Medic";
     public string RoleDescription => "Help the crewmates by reviving dead players.";

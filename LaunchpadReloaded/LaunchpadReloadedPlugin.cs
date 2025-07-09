@@ -28,13 +28,13 @@ public partial class LaunchpadReloadedPlugin : BasePlugin, IMiraPlugin
         return Config;
     }
 
-    public string OptionsTitleText => "Launchpad";
+    public string OptionsTitleText => "TOR-W:\nLaunchpad";
 
     public override void Load()
     {
         Harmony.PatchAll();
 
-        ReactorCredits.Register("Launchpad", Version.Truncate(11, "") ?? Version, true, ReactorCredits.AlwaysShow);
+        ReactorCredits.Register("TOR-W: Launchpad", Version.Truncate(11, "") ?? Version, true, ReactorCredits.AlwaysShow);
 
         LaunchpadSettings.Initialize();
 

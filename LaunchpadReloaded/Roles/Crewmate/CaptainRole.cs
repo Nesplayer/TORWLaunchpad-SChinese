@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Crewmate;
 
-public class CaptainRole(IntPtr ptr) : CrewmateRole(ptr), ICustomRole
+public class CaptainRole(IntPtr ptr) : CrewmateRole(ptr), ICrewmateRole
 {
     public string RoleName => "Captain";
     public string RoleDescription => "Protect the crew with your abilities";

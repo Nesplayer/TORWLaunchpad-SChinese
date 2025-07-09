@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Impostor;
 
-public class SurgeonRole(IntPtr ptr) : ImpostorRole(ptr), ICustomRole
+public class SurgeonRole(IntPtr ptr) : ImpostorRole(ptr), IImpostorRole
 {
     public string RoleName => "Surgeon";
     public string RoleDescription => "Poison other players and dissect bodies";

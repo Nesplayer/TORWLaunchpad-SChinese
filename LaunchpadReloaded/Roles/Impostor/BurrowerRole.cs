@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Impostor;
 
-public class BurrowerRole(IntPtr ptr) : ImpostorRole(ptr), ICustomRole
+public class BurrowerRole(IntPtr ptr) : ImpostorRole(ptr), IImpostorRole
 {
     public string RoleName => "Burrower";
     public string RoleDescription => "Create vents around the map.";

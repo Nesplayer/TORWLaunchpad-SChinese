@@ -27,7 +27,9 @@ public static class LaunchpadAssets
     public static readonly LoadableAsset<Sprite> InstinctButton = new LoadableBundleAsset<Sprite>("Instinct.png", Bundle);
     public static readonly LoadableAsset<Sprite> InvestigateButton = new LoadableBundleAsset<Sprite>("Investigate.png", Bundle);
     public static readonly LoadableAsset<Sprite> DigVentButton = new LoadableBundleAsset<Sprite>("DigVent.png", Bundle);
-    public static readonly LoadableAsset<Sprite> JesterIcon = new LoadableBundleAsset<Sprite>("Jester.png", Bundle);
+    public static readonly LoadableAsset<Sprite> JesterIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Jester.png");
+    public static readonly LoadableAsset<Sprite> TraitorIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Traitor.png");
+    public static readonly LoadableAsset<Sprite> TeleportButton = new LoadableResourceAsset("TORWLaunchpad.Resources.TeleportButton.png");
     public static readonly LoadableAsset<Sprite> ReviveButton = new LoadableBundleAsset<Sprite>("Revive.png", Bundle);
     public static readonly LoadableAsset<Sprite> ShootButton = new LoadableBundleAsset<Sprite>("Shoot.png", Bundle);
     public static readonly LoadableAsset<Sprite> ZoomButton = new LoadableBundleAsset<Sprite>("Zoom.png", Bundle);

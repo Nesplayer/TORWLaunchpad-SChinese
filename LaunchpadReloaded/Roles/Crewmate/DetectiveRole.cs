@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Crewmate;
 
-public class DetectiveRole(IntPtr ptr) : CrewmateRole(ptr), ICustomRole
+public class DetectiveRole(IntPtr ptr) : CrewmateRole(ptr), ICrewmateRole
 {
     public string RoleName => "Detective";
     public string RoleDescription => "Investigate and find clues on murders.";

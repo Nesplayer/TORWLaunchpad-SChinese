@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Crewmate;
 
-public class CoronerRole(IntPtr ptr) : CrewmateRole(ptr), ICustomRole
+public class CoronerRole(IntPtr ptr) : CrewmateRole(ptr), ICrewmateRole
 {
     public string RoleName => "Coroner";
     public string RoleDescription => "Freeze bodies to prevent them from disappearing.";

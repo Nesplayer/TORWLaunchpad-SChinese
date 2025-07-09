@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Crewmate;
 
-public class SheriffRole(IntPtr ptr) : CrewmateRole(ptr), ICustomRole
+public class SheriffRole(IntPtr ptr) : CrewmateRole(ptr), ICrewmateRole
 {
     public string RoleName => "Sheriff";
     public string RoleDescription => "Take your chance by shooting a player.";

@@ -1,12 +1,15 @@
 using MiraAPI.GameOptions;
+using LaunchpadReloaded.Features;
 using MiraAPI.GameOptions.Attributes;
 using MiraAPI.Utilities;
+using UnityEngine;
 
 namespace LaunchpadReloaded.Options.Modifiers;
 
 public class LpModifierOptions : AbstractOptionGroup
 {
     public override string GroupName => "Modifier Options";
+    public override Color GroupColor => LaunchpadPalette.LpMenu;
     public override uint GroupPriority => 0;
     public override bool ShowInModifiersMenu => true;
 

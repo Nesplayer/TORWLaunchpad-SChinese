@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace LaunchpadReloaded.Roles.Impostor;
 
-public class JanitorRole(IntPtr ptr) : ImpostorRole(ptr), ICustomRole
+public class JanitorRole(IntPtr ptr) : ImpostorRole(ptr), IImpostorRole
 {
     public string RoleName => "Janitor";
     public string RoleDescription => "Drag bodies and hide them in vents";

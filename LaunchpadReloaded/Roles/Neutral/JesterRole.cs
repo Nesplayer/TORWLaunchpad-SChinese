@@ -8,9 +8,9 @@ using MiraAPI.GameOptions;
 using MiraAPI.Roles;
 using UnityEngine;
 
-namespace LaunchpadReloaded.Roles.Outcast;
+namespace LaunchpadReloaded.Roles.Neutral;
 
-public class JesterRole(System.IntPtr ptr) : RoleBehaviour(ptr), IOutcastRole
+public class JesterRole(System.IntPtr ptr) : RoleBehaviour(ptr), INeutralRole
 {
     public string RoleName => "Jester";
     public string RoleDescription => "Get ejected to win";
