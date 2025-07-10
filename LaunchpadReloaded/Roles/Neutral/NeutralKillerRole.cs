@@ -12,9 +12,9 @@ public class NeutralKillerRole(System.IntPtr ptr) : RoleBehaviour(ptr), INeutral
 {
     public string RoleName => "Neutral Killer";
 
-    public string RoleDescription => "Neutral who can kill.\nThis is just a template role, it does nothing at this point, but will in the future.";
+    public string RoleDescription => "Neutral who can kill.\nKill players to win the game alone.";
 
-    public string RoleLongDescription => "This is just a template role, it does nothing at this point, but will in the future.";
+    public string RoleLongDescription => "Neutral who can kill.\nKill players to win the game alone.";
 
     public Color RoleColor => LaunchpadPalette.NeutralKillerColor;
 
