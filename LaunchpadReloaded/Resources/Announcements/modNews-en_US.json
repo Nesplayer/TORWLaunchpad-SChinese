@@ -8,10 +8,25 @@
       "Title": "TOR-W: Launchpad v1.0.0",
       "Text": [
         "\r<b> The initial release!</b>",
-        "\n\n<b>└Added┐</b>:",
+        "\n\n<b>└ Added ┐</b>:",
         "\n• Added 17 colors.",
         "\n• Added Traitor role.",
-        "\n\n<b>└Bugs┐</b>:",
+        "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦"
+      ]
+    },
+    {
+      "Date": "2025-04-18T12:50:00Z",
+      "Number": "100002",
+      "ShortTitle": "TOR-W: L v1.0.1",
+      "SubTitle": "Bug fixes and more..",
+      "Title": "TOR-W: Launchpad v1.0.1",
+      "Text": [
+        "\n\n<b>└ Added ┐</b>:",
+        "\n• Added Chameleon role.",
+        "\n• Added Teleporter role.",
+        "\n\n<b>└ Updated ┐</b>:",
+        "\n• Updated the cosmetics for the V.I.P modofier.",
+        "\n\n<b>└ Bugs ┐</b>:",
         "\n• Hacker role not letting players unhack nodes.",
         "\n• Giant modifier making player go out of boundaries when climbing up ladders.",
         "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦"
@@ -19,29 +34,44 @@
     },
     {
       "Date": "2025-05-9T12:50:00Z",
-      "Number": "100002",
-      "ShortTitle": "TOR-W: L v1.0.1",
-      "SubTitle": "Bug fixes and more..",
-      "Title": "TOR-W: Launchpad v1.0.1",
+      "Number": "100003",
+      "ShortTitle": "TOR-W: L v1.1.0",
+      "SubTitle": "New Release!",
+      "Title": "TOR-W: Launchpad v1.1.0",
       "Text": [
-        "\n\n<b>└Added┐</b>:",
+        "\n\n<b>└ Added ┐</b>:",
         "\n• Added Chameleon role.",
         "\n• Added Teleporter role.",
         "\n• Updated the cosmetics for the V.I.P modofier.",
+        "\n• Added Executioner role.",
+        "\n• Added Neutral Killer role as a template role.",
+        "\n\n<b>└ Features ┐</b>:",
+        "\n• Updated \"Crewmate Roles\" to \"♦ Crewmate Roles ♦\" and so on for the others.",
+        "\n\n<b>└ Bugs ┐</b>:",
+        "\n• Hacker role not letting players unhack nodes.",
+        "\n• Giant modifier making player go out of boundaries when climbing up ladders.",
         "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦"
       ]
     },
     {
-      "Date": "2025-04-16T12:50:00Z",
-      "Number": "100003",
-      "ShortTitle": "TOR-W: L v1.1.0",
-      "SubTitle": "New Release!",
-      "Title": "TOR-W: Launchpad v1.0.0",
+      "Date": "2025-07-10T12:50:00Z",
+      "Number": "100004",
+      "ShortTitle": "TOR-W: L v1.1.1",
+      "SubTitle": "Bug fixes and more..",
+      "Title": "TOR-W: Launchpad v1.1.1",
       "Text": [
-        "\r<b> The initial release!</b>",
-        "\n\n<b>└Added┐</b>:",
-        "• Added 17 colors.",
-        "• Added Traitor role.",
+        "\n\n<b>└ Added ┐</b>:",
+        "\n• Bait Modifier (@WanderingPix) - Your killer self reports when you are killed.",
+        "\n• Torch Modifier (LPR Modifier) - You can see when lights are down.",
+        "\n\n<b>└ Updated ┐</b>:",
+        "\n• Neutral Killer - Kill everyone. Seems simple?.",
+        "\n\n<b>└ Features ┐</b>:",
+        "\n• Menu Changes -Added some colors for the menus in settings.",
+        "\n\n<b>└ Scrapped ┐</b>:",
+        "\n• Removed Chameleon.",
+        "\n\n<b>└ Bugs ┐</b>:",
+        "\n• Hacker role not letting players unhack nodes (almost fixed).",
+        "\n• Giant modifier making player go out of boundaries when climbing up ladders.",
         "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦"
       ]
     }
