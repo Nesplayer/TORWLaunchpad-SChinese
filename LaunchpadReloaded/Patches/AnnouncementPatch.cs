@@ -64,7 +64,7 @@ public static class ModNewsFetcher
 {
 #pragma warning disable S1075 // URIs should not be hardcoded
     private static string ModNewsURL =
-        "https://raw.githubusercontent.com/TownofReworked/TORWLaunchpad/refs/heads/main/TownOfUs/Resources/Announcements/modNews-";
+        "https://raw.githubusercontent.com/TownofReworked/TORWLaunchpad/master/LaunchpadReloaded/Resources/Announcements/modNews-";
 #pragma warning restore S1075 // URIs should not be hardcoded
 
     private static bool downloaded;

@@ -36,8 +36,13 @@ public partial class LaunchpadReloadedPlugin : BasePlugin, IMiraPlugin
 
         ReactorCredits.Register("TOR-W: Launchpad", Version.Truncate(11, "") ?? Version, true, ReactorCredits.AlwaysShow);
 
+        IL2CPPChainloader.Instance.Finished +=
+            ModNewsFetcher.CheckForNews;
+        
         LaunchpadSettings.Initialize();
 
         Config.Save();
+        
+        Harmony.PatchAll();
     }
 }
