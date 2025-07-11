@@ -31,7 +31,7 @@ public static class LaunchpadAssets
     public static readonly LoadableAsset<Sprite> TraitorIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Traitor.png");
     public static readonly LoadableAsset<Sprite> TeleportButton = new LoadableResourceAsset("TORWLaunchpad.Resources.TeleportButton.png");
     public static readonly LoadableAsset<Sprite> KillButton = new LoadableResourceAsset("TORWLaunchpad.Resources.Kill.png");
-    public static readonly LoadableAsset<Sprite> AuAvengersSprite = new LoadableResourceAsset("TORWLaunchpad.Resources.AuAvengersSprite.png");
+    public static readonly LoadableAsset<Sprite> AuAvengersSprite = new LoadableResourceAsset("TORWLaunchpad.Resources.AuAvengers.png");
     public static readonly LoadableAsset<Sprite> ReviveButton = new LoadableBundleAsset<Sprite>("Revive.png", Bundle);
     public static readonly LoadableAsset<Sprite> ShootButton = new LoadableBundleAsset<Sprite>("Shoot.png", Bundle);
     public static readonly LoadableAsset<Sprite> ZoomButton = new LoadableBundleAsset<Sprite>("Zoom.png", Bundle);
