@@ -11,8 +11,7 @@
         "\n\n<b>└ Added ┐</b>:",
         "\n• Added 17 colors.",
         "\n• Added Traitor role.",
-        "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦",
-        "\n\n"
+        "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦"
       ]
     },
     {
@@ -22,7 +21,7 @@
       "SubTitle": "Bug fixes and more..",
       "Title": "TOR-W: Launchpad v1.0.1",
       "Text": [
-        "\n\n<b>└ Added ┐</b>:",
+        "\r\n<b>└ Added ┐</b>:",
         "\n• Added Chameleon role.",
         "\n• Added Teleporter role.",
         "\n\n<b>└ Updated ┐</b>:",
@@ -30,8 +29,7 @@
         "\n\n<b>└ Bugs ┐</b>:",
         "\n• Hacker role not letting players unhack nodes.",
         "\n• Giant modifier making player go out of boundaries when climbing up ladders.",
-        "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦",
-        "\n\n"
+        "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦"
       ]
     },
     {
@@ -41,7 +39,7 @@
       "SubTitle": "New Release!",
       "Title": "TOR-W: Launchpad v1.1.0",
       "Text": [
-        "\n\n<b>└ Added ┐</b>:",
+        "\r\n<b>└ Added ┐</b>:",
         "\n• Added Chameleon role.",
         "\n• Added Teleporter role.",
         "\n• Updated the cosmetics for the V.I.P modofier.",
@@ -52,8 +50,7 @@
         "\n\n<b>└ Bugs ┐</b>:",
         "\n• Hacker role not letting players unhack nodes.",
         "\n• Giant modifier making player go out of boundaries when climbing up ladders.",
-        "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦",
-        "\n\n"
+        "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦"
       ]
     },
     {
@@ -63,7 +60,7 @@
       "SubTitle": "Bug fixes and more..",
       "Title": "TOR-W: Launchpad v1.1.1",
       "Text": [
-        "\n\n<b>└ Added ┐</b>:",
+        "\r\n<b>└ Added ┐</b>:",
         "\n• Bait Modifier (@WanderingPix) - Your killer self reports when you are killed.",
         "\n• Torch Modifier (LPR Modifier) - You can see when lights are down.",
         "\n\n<b>└ Updated ┐</b>:",
@@ -75,8 +72,28 @@
         "\n\n<b>└ Bugs ┐</b>:",
         "\n• Hacker role not letting players unhack nodes (almost fixed).",
         "\n• Giant modifier making player go out of boundaries when climbing up ladders.",
-        "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦",
-        "\n\n"
+        "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦"
+      ]
+    },
+    {
+      "Date": "2025-07-12T12:50:00Z",
+      "Number": "100005",
+      "ShortTitle": "TOR-W: L v1.1.2",
+      "SubTitle": "Feature Updates",
+      "Title": "TOR-W: Launchpad v1.1.2",
+      "Text": [
+        "\rThis update adds some menu changes, and some role selecting features. Such as selecting the amount of the actual modifier can spawn per game, and more!",
+        "\n\n<b>└ Added ┐</b>:",
+        "\n• Added Custom Announcements.",
+        "\n• Added icons for Modifiers.",
+        "\n\n<b>└ Updated ┐</b>:",
+        "\n• Neutral Killer Kill button.",
+        "\n\n<b>└ Features ┐</b>:",
+        "\n• Menu Changes - Added some colors for the menus in settings.",
+        "\n\n<b>└ Bugs ┐</b>:",
+        "\n• Hacker role not letting players unhack nodes (almost fixed).",
+        "\n• Giant modifier making player go out of boundaries when climbing up ladders.",
+        "\n\n♦♦ Thank you for downloading and playing TOR-W: L! ♦♦"
       ]
     }
   ]
