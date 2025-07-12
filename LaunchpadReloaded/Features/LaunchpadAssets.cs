@@ -52,6 +52,7 @@ public static class LaunchpadAssets
     public static readonly LoadableAsset<Sprite> GiantIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Giant.png");
     public static readonly LoadableAsset<Sprite> VIPIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.NewsIcon.png");
     public static readonly LoadableAsset<Sprite> TorchIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Torch.png");
+    public static readonly LoadableAsset<Sprite> GravityFieldIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.GravityField.png");
     
     // Universal Icons
     public static readonly LoadableAsset<Sprite> MayorIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Mayor.png");

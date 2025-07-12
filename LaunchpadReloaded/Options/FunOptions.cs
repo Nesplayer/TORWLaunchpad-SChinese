@@ -1,17 +1,20 @@
 ﻿using LaunchpadReloaded.Features.Managers;
 using LaunchpadReloaded.Networking.Color;
 using LaunchpadReloaded.Utilities;
+using LaunchpadReloaded.Features;
 using MiraAPI.GameOptions;
 using MiraAPI.GameOptions.Attributes;
 using MiraAPI.GameOptions.OptionTypes;
 using Reactor.Networking.Rpc;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace LaunchpadReloaded.Options;
 
 public class FunOptions : AbstractOptionGroup
 {
     public override string GroupName => "Fun Options";
+    public override Color GroupColor => LaunchpadPalette.FunMenu;
 
     [ModdedToggleOption("Friendly Fire")]
     public bool FriendlyFire { get; set; } = false;

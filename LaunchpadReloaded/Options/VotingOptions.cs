@@ -1,9 +1,11 @@
 ﻿using LaunchpadReloaded.Features.Voting;
+using LaunchpadReloaded.Features;
 using MiraAPI.GameModes;
 using MiraAPI.GameOptions;
 using MiraAPI.GameOptions.Attributes;
 using MiraAPI.GameOptions.OptionTypes;
 using MiraAPI.Utilities;
+using UnityEngine;
 using System;
 
 namespace LaunchpadReloaded.Options;
@@ -11,7 +13,7 @@ namespace LaunchpadReloaded.Options;
 public class VotingOptions : AbstractOptionGroup
 {
     public override string GroupName => "Voting Type";
-
+    public override Color GroupColor => LaunchpadPalette.VotingMenu;
     public override Func<bool> GroupVisible => CustomGameModeManager.IsDefault;
 
     [ModdedEnumOption("Voting Type", typeof(VotingTypes))]

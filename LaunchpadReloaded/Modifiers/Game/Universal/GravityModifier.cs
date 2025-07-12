@@ -1,7 +1,9 @@
 ﻿using LaunchpadReloaded.Components;
+using LaunchpadReloaded.Features;
 using LaunchpadReloaded.Options.Modifiers;
 using LaunchpadReloaded.Options.Modifiers.Universal;
 using MiraAPI.GameOptions;
+using MiraAPI.Utilities.Assets;
 using Reactor.Utilities.Extensions;
 using UnityEngine;
 
@@ -10,6 +12,7 @@ namespace LaunchpadReloaded.Modifiers.Game.Universal;
 public sealed class GravityModifier : LPModifier
 {
     public override string ModifierName => "Gravity Field";
+    public override LoadableAsset<Sprite>? ModifierIcon => LaunchpadAssets.GravityFieldIcon;
     public override string GetDescription() => "You slow down players near you.";
     public override int GetAssignmentChance() => (int)OptionGroupSingleton<UniversalModifierOptions>.Instance.GravityChance;
     public override int GetAmountPerGame() => (int)OptionGroupSingleton<GravityFieldOptions>.Instance.GravityAmount;

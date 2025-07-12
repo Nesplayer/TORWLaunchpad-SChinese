@@ -4,12 +4,14 @@ using MiraAPI.GameOptions.Attributes;
 using System;
 using LaunchpadReloaded.Features;
 using MiraAPI.GameOptions.OptionTypes;
+using UnityEngine;
 
 namespace LaunchpadReloaded.Options;
 
 public class GeneralOptions : AbstractOptionGroup
 {
     public override string GroupName => "General";
+    public override Color GroupColor => LaunchpadPalette.GeneralMenu;
     public override Func<bool> GroupVisible => CustomGameModeManager.IsDefault;
 
     public ModdedToggleOption Notepad { get; set; } = new("Notepad", true)

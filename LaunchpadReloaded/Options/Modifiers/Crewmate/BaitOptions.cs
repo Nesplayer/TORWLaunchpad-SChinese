@@ -10,7 +10,7 @@ namespace LaunchpadReloaded.Options.Modifiers.Crewmate;
 
 	public class BaitOptions : AbstractOptionGroup<BaitModifier>
 	{
-		public override string GroupName => "Bait Options";
+		public override string GroupName => "Bait";
 		public override Color GroupColor => LaunchpadPalette.BaitMenu;
 		
 		public override Func<bool> GroupVisible =>

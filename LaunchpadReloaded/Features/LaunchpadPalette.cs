@@ -38,6 +38,9 @@ public static class LaunchpadPalette
     public static readonly Color CrewMenu = new Color32(100, 212, 218, 255);
     public static readonly Color LpMenu = new Color32(192, 65, 204, 255);
     public static readonly Color UniversalMenu = new Color32(36, 154, 248, 255);
+    public static readonly Color FunMenu = new Color32(255, 120, 90, 255);
+    public static readonly Color GeneralMenu = new Color32(120, 0, 255, 255);
+    public static readonly Color VotingMenu = new Color32(0, 255, 180, 255);
     public static readonly Color KingMenu = new Color32(255, 215, 0, 255);
     public static readonly Color SmolMenu = new Color32(0, 255, 200, 255);
     public static readonly Color GravityMenu = new Color32(255, 0, 170, 255);
