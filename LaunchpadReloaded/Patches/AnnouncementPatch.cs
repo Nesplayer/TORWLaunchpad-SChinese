@@ -145,22 +145,6 @@ public static class ModNewsFetcher
             LoadModNewsFromResources();
         }
     }
-    
-    private static string SafeColorTag(string input)
-    {
-        if (string.IsNullOrWhiteSpace(input)) return input;
-    
-        int openTags = input.Split(new[] { "<color=" }, StringSplitOptions.None).Length - 1;
-        int closeTags = input.Split(new[] { "</color>" }, StringSplitOptions.None).Length - 1;
-    
-        while (closeTags < openTags)
-        {
-            input += "</color>";
-            closeTags++;
-        }
-    
-        return input;
-    }
 
     private static void LoadModNewsFromResources()
     {
@@ -209,9 +193,8 @@ public static class ModNewsFetcher
             var title = numberString != null && newsElement.GetProperty("Title").GetString() != null
                 ? newsElement.GetProperty("Title").GetString()!
                 : "No Title";
-            var rawBody = string.Join(" ",
+            var body = string.Join(" ",
                 newsElement.GetProperty("Text").EnumerateArray().Select(element => element.GetString()));
-            var body = SafeColorTag(rawBody);
             // Create ModNews object
             var modNew = new ModNews(number, title, subTitle, shortTitle, body, dateString);
             ModNewsHistory.AllModNews = ModNewsHistory.AllModNews.Add(modNew);
