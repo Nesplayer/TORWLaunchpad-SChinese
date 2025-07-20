@@ -1,5 +1,6 @@
 ﻿using LaunchpadReloaded.Options.Modifiers;
 using LaunchpadReloaded.Features;
+using LaunchpadReloaded.Options.Modifiers.Universal;
 using MiraAPI.Utilities.Assets;
 using UnityEngine;
 using MiraAPI.GameOptions;
@@ -13,7 +14,7 @@ public sealed class GiantModifier : LPModifier
     public override LoadableAsset<Sprite>? ModifierIcon => LaunchpadAssets.GiantIcon;
     public override string GetDescription() => "You are larger than\nthe average player.";
     public override int GetAssignmentChance() => (int)OptionGroupSingleton<UniversalModifierOptions>.Instance.GiantChance;
-    public override int GetAmountPerGame() => 1;
+    public override int GetAmountPerGame() => (int)OptionGroupSingleton<GiantOptions>.Instance.GiantAmount;
     public override bool IsModifierValidOn(RoleBehaviour role) => base.IsModifierValidOn(role) && !role.Player.HasModifier<SmolModifier>();
     public override void OnActivate()
     {

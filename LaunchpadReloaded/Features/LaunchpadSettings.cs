@@ -18,7 +18,7 @@ public class LaunchpadSettings
     public CustomSetting LockedCamera { get; }
     public CustomSetting UniqueDummies { get; }
     public CustomSetting ButtonLocation { get; }
-
+    
     public ConfigEntry<float> BloomThreshold { get; }
 
     private LaunchpadSettings()

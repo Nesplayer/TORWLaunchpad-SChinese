@@ -8,7 +8,6 @@ public static class LaunchpadPalette
     public static readonly Color SealerColor = new Color32(71, 157, 143, 255);
     public static readonly Color SheriffColor = Palette.Orange;
     public static readonly Color MedicColor = Color.green;
-    public static readonly Color MayorColor = new Color32(221, 176, 152, 255);
     public static readonly Color CoronerColor = new Color32(167, 225, 242, 255);
     public static readonly Color DetectiveColor = new Color32(67, 166, 198, 255);
     public static readonly Color GamblerColor = new Color32(207, 181, 59, 255);
@@ -28,11 +27,17 @@ public static class LaunchpadPalette
     public static readonly Color NeutralKillerColor = new Color32(54, 9, 120, 255);
     public static readonly Color TraitorColor = new Color32(89, 18, 18, 255);
     public static readonly Color ExecutionerColor = new Color32(221, 176, 152, 255);
+    
+    //Covens
     public static readonly Color DarkFairyColor = new Color32(51, 4, 93, 255);
+    public static readonly Color TavernKeeperColor = new Color32(75, 0, 130, 255);
     
     // Target Modifiers
     public static readonly Color TargetColor = new Color32(6, 156, 131, 255);
     public static readonly Color ExeTargetColor = new Color32(3, 255, 15, 255);
+    
+    // Tags
+    public static readonly Color DarkenedColor = new Color32(60, 0, 120, 255);
     
     // Options Menus
     public static readonly Color CrewMenu = new Color32(100, 212, 218, 255);
@@ -50,4 +55,11 @@ public static class LaunchpadPalette
     public static readonly Color TorchMenu = new Color32(255, 50, 0, 255);
     public static readonly Color MayorMenu = new Color32(245, 255, 255, 255);
     public static readonly Color BaitMenu = new Color32(11, 223, 56, 255);
+    public static readonly Color BurstMenu = Color.cyan;
+    
+    // Task Headers
+    public static readonly Color Coven = new Color32(153, 50, 204, 255);
+    public static readonly Color Impostor = new Color32(203, 83, 84, 255);
+    public static readonly Color Crewmate = new Color32(120, 204, 236, 255);
+    public static readonly Color Neutral = Color.gray;
 }

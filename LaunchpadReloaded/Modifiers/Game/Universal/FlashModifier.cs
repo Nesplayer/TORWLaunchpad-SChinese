@@ -1,5 +1,6 @@
 using LaunchpadReloaded.Options.Modifiers;
 using LaunchpadReloaded.Features;
+using LaunchpadReloaded.Options.Modifiers.Universal;
 using MiraAPI.Utilities.Assets;
 using UnityEngine;
 using MiraAPI.GameOptions;
@@ -11,7 +12,7 @@ public sealed class FlashModifier : LPModifier
     public override string ModifierName => "Flash";
     public override LoadableAsset<Sprite>? ModifierIcon => LaunchpadAssets.FlashIcon;
     public override int GetAssignmentChance() => (int)OptionGroupSingleton<UniversalModifierOptions>.Instance.FlashChance;
-    public override int GetAmountPerGame() => 1;
+    public override int GetAmountPerGame() => (int)OptionGroupSingleton<FlashOptions>.Instance.FlashAmount;
 
     public override string GetDescription()
     {

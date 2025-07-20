@@ -14,7 +14,7 @@ public class NeutralKillerRole(System.IntPtr ptr) : RoleBehaviour(ptr), INeutral
 
     public string RoleDescription => "Neutral who can kill.\nKill players to win the game alone.";
 
-    public string RoleLongDescription => "Neutral who can kill.\nKill players to win the game alone.";
+    public string RoleLongDescription => "Neutral who can kill.\nKill players to win the game alone. Seems quite easy right?";
 
     public Color RoleColor => LaunchpadPalette.NeutralKillerColor;
 
@@ -25,8 +25,7 @@ public class NeutralKillerRole(System.IntPtr ptr) : RoleBehaviour(ptr), INeutral
         TasksCountForProgress = false,
         CanUseVent = OptionGroupSingleton<JesterOptions>.Instance.CanUseVents,
         GhostRole = (RoleTypes)RoleId.Get<OutcastGhostRole>(),
-        Icon = LaunchpadAssets.JesterIcon,
-        OptionsScreenshot = LaunchpadAssets.JesterBanner,
+        Icon = LaunchpadAssets.NeutralKillerIcon,
     };
 
     public override void AppendTaskHint(StringBuilder taskStringBuilder)
@@ -34,8 +33,8 @@ public class NeutralKillerRole(System.IntPtr ptr) : RoleBehaviour(ptr), INeutral
         // No task hints
     }
 
-    public override bool DidWin(GameOverReason reason)
-    {
-        return GameManager.Instance.DidHumansWin(reason);
-    }
+    public override void SpawnTaskHeader(PlayerControl playerControl)
+        {
+            playerControl.SpawnNeutralTaskHeader();
+        }
 }

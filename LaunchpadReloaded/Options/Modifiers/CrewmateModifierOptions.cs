@@ -23,4 +23,7 @@ public class CrewmateModifierOptions : AbstractOptionGroup
     
     [ModdedNumberOption("Bait Chance", 0f, 100f, 10f, suffixType: MiraNumberSuffixes.Percent)]
     public float BaitChance { get; set; } = 0f;
+    
+    [ModdedNumberOption("Burst Chance", 0f, 100f, 10f, suffixType: MiraNumberSuffixes.Percent)]
+    public float BurstChance { get; set; } = 0f;
 }

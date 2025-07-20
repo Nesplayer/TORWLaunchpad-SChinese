@@ -22,4 +22,9 @@ public class BurrowerRole(IntPtr ptr) : ImpostorRole(ptr), IImpostorRole
 
     [HideFromIl2Cpp]
     public List<Vent> DugVents { get; } = [];
+    
+    public override void SpawnTaskHeader(PlayerControl playerControl)
+    {
+        playerControl.SpawnImpostorTaskHeader();
+    }
 }

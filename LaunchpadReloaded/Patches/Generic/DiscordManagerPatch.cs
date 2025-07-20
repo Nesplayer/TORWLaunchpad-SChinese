@@ -38,7 +38,7 @@ public static class DiscordManagerPatch
     [HarmonyPatch(typeof(ActivityManager), nameof(ActivityManager.UpdateActivity))]
     public static void ActivityManagerUpdateActivityPrefix(ActivityManager __instance, [HarmonyArgument(0)] Activity activity)
     {
-        activity.Details += " ";
+        activity.Details += $" | TOR-W: L v{LaunchpadReloadedPlugin.ModVersion}";
         activity.State += " ";
     }
 }

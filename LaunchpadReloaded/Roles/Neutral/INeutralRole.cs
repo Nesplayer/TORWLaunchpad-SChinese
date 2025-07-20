@@ -1,4 +1,5 @@
-﻿using MiraAPI.GameOptions;
+﻿using LaunchpadReloaded.Features;
+using MiraAPI.GameOptions;
 using MiraAPI.Roles;
 using UnityEngine;
 
@@ -14,5 +15,19 @@ namespace LaunchpadReloaded.Roles.Neutral
         TeamIntroConfiguration? ICustomRole.IntroConfiguration =>
             new TeamIntroConfiguration(Color.gray, "NEUTRAL", 
                 "You are a Neutral. You do not have a team.");
+    }
+    public static class NeutralRoleExtensions
+    {
+        public static void SpawnNeutralTaskHeader(this PlayerControl playerControl)
+        {
+            if (playerControl != PlayerControl.LocalPlayer) return;
+
+            var orCreateTask = PlayerTask.GetOrCreateTask<ImportantTextTask>(playerControl);
+            orCreateTask.Text = string.Concat([
+                LaunchpadPalette.Neutral.ToTextColor(),
+                "You have no team. Work alone to win",
+                "</color>"
+            ]);
+        }
     }
 }

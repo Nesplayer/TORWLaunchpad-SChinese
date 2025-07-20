@@ -31,7 +31,13 @@ public class ExecutionerRole(System.IntPtr ptr) : RoleBehaviour(ptr), INeutralRo
         TasksCountForProgress = false,
         CanUseVent = false,
         GhostRole = (RoleTypes)RoleId.Get<OutcastGhostRole>(),
+        Icon = LaunchpadAssets.ExecutionerIcon,
     };
+    
+    public override void SpawnTaskHeader(PlayerControl playerControl)
+    {
+        playerControl.SpawnNeutralTaskHeader();
+    }
 
     private static readonly PlayerTag TargetTag = new()
     {

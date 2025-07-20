@@ -12,7 +12,6 @@ namespace LaunchpadReloaded.Options.Modifiers.Crewmate;
 	{
 		public override string GroupName => "Bait";
 		public override Color GroupColor => LaunchpadPalette.BaitMenu;
-		
 		public override Func<bool> GroupVisible =>
 			() => OptionGroupSingleton<CrewmateModifierOptions>.Instance.BaitChance > 0;
 

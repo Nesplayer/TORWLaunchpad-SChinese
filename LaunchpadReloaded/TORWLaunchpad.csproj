@@ -3,9 +3,9 @@
         <TargetFramework>net6.0</TargetFramework>
         <LangVersion>latest</LangVersion>
         <DebugType>embedded</DebugType>
-        <Version>1.1.1</Version>
+        <Version>1.2.0-Dev-3</Version>
         <Description>Launchpad Mod for new roles and gamemodes</Description>
-        <Authors>XtraCube, angxlwtf, Daemon</Authors>
+        <Authors>angel</Authors>
         <Nullable>enable</Nullable>
         <Configurations>Debug;Release</Configurations>
         <Platforms>AnyCPU;Android</Platforms>
