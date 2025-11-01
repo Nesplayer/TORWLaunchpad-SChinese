@@ -243,9 +243,9 @@ public static class ModNewsFetcher
             //obj.layer = -1;
             obj.transform.SetParent(__instance.transform);
             obj.transform.localPosition = new Vector3(-0.8f, 0.13f, 0.5f);
-            obj.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+            obj.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
             var renderer = obj.AddComponent<SpriteRenderer>();
-            renderer.sprite = LaunchpadAssets.NewsIcon.LoadAsset();
+            renderer.sprite = LaunchpadAssets.NewsButtonIcon.LoadAsset();
             renderer.maskInteraction = SpriteMaskInteraction.VisibleInsideMask;
         }
     }

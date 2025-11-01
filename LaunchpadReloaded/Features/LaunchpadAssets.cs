@@ -34,7 +34,6 @@ public static class LaunchpadAssets
     public static readonly LoadableAsset<Sprite> NeutralKillerIcon = new LoadableBundleAsset<Sprite>("Kill.png", Icons);
     public static readonly LoadableAsset<Sprite> RoleBlockButton = new LoadableBundleAsset<Sprite>("RoleBlock.png", Icons);
     public static readonly LoadableAsset<Sprite> ExecutionerIcon = new LoadableBundleAsset<Sprite>("Executioner.png", Icons);
-    public static readonly LoadableAsset<Sprite> NewsIcon = new LoadableBundleAsset<Sprite>("VIP.png", Icons);
     public static readonly LoadableAsset<Sprite> ReviveButton = new LoadableBundleAsset<Sprite>("Revive.png", Bundle);
     public static readonly LoadableAsset<Sprite> ShootButton = new LoadableBundleAsset<Sprite>("Shoot.png", Bundle);
     public static readonly LoadableAsset<Sprite> ZoomButton = new LoadableBundleAsset<Sprite>("Zoom.png", Bundle);
@@ -51,6 +50,17 @@ public static class LaunchpadAssets
     public static readonly LoadableAsset<Sprite> Player = new LoadableBundleAsset<Sprite>("Player.png", Ability);
     public static readonly LoadableAsset<Sprite> Body = new LoadableBundleAsset<Sprite>("Body.png", Ability);
     public static readonly LoadableAsset<Sprite> Vent = new LoadableBundleAsset<Sprite>("Vent.png", Ability);
+    
+    // Button Sprites (Halloween & Christmas)
+    public static readonly LoadableAsset<Sprite> PlayButtonIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Play.png");
+    public static readonly LoadableAsset<Sprite> ShopButtonIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Shop.png", 65);
+    public static readonly LoadableAsset<Sprite> InventoryButtonIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Inventory.png");
+    public static readonly LoadableAsset<Sprite> SettingsButtonIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Settings.png");
+    public static readonly LoadableAsset<Sprite> NewsButtonIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Mega.png");
+    public static readonly LoadableAsset<Sprite> AccountButtonIcon = new LoadableResourceAsset("TORWLaunchpad.Resources.Account.png");
+    
+    // Banners
+    public static readonly LoadableAsset<Sprite> TORWBanner = new LoadableResourceAsset("TORWLaunchpad.Resources.Banner.png");
     
     // Modifier Icons
     public static readonly LoadableAsset<Sprite> BaitIcon = new LoadableBundleAsset<Sprite>("Bait.png", Icons);
