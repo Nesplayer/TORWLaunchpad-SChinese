@@ -15,7 +15,7 @@ using Reactor.Utilities;
 
 namespace LaunchpadReloaded;
 
-[BepInAutoPlugin("mod.angel.launchpad", "TOR-W: L", "2.0.0-r")]
+[BepInAutoPlugin("mod.angel.launchpad", "TOR-W: L")]
 [BepInProcess("Among Us.exe")]
 [BepInDependency(ReactorPlugin.Id)]
 [BepInDependency(MiraApiPlugin.Id)]
