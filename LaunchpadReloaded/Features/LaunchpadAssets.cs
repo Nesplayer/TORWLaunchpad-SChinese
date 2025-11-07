@@ -43,6 +43,7 @@ public static class LaunchpadAssets
     public static readonly LoadableAsset<Sprite> SoulButton = new LoadableBundleAsset<Sprite>("StealSoul.png", Bundle);
     public static readonly LoadableAsset<Sprite> GambleButton = new LoadableBundleAsset<Sprite>("Gamble.png", Bundle);
     public static readonly LoadableAsset<Sprite> DeadlockButton = new LoadableBundleAsset<Sprite>("Deadlock.png", Bundle);
+    public static readonly LoadableAsset<Sprite> SilenceButton = new LoadableResourceAsset("TORWLaunchpad.Resources.SilenceButton.png");
     public static readonly LoadableAsset<Sprite> Silencer = new LoadableResourceAsset("TORWLaunchpad.Resources.Silencer.png");
 
     // Ability Counter Sprites
@@ -65,13 +66,11 @@ public static class LaunchpadAssets
     // Modifier Icons
     public static readonly LoadableAsset<Sprite> BaitIcon = new LoadableBundleAsset<Sprite>("Bait.png", Icons);
     public static readonly LoadableAsset<Sprite> FlashIcon = new LoadableBundleAsset<Sprite>("Flash.png", Icons);
-    public static readonly LoadableAsset<Sprite> MiniIcon = new LoadableBundleAsset<Sprite>("Mini.png", Icons);
-    public static readonly LoadableAsset<Sprite> GiantIcon = new LoadableBundleAsset<Sprite>("Giant.png", Icons);
     public static readonly LoadableAsset<Sprite> VIPIcon = new LoadableBundleAsset<Sprite>("VIP.png", Icons);
     public static readonly LoadableAsset<Sprite> TorchIcon = new LoadableBundleAsset<Sprite>("Torch.png", Icons);
-    public static readonly LoadableAsset<Sprite> GravityFieldIcon = new LoadableBundleAsset<Sprite>("GravityField.png", Icons);
     public static readonly LoadableAsset<Sprite> BurstIcon = new LoadableBundleAsset<Sprite>("Burst.png", Icons);
     public static readonly LoadableAsset<Sprite> MayorIcon = new LoadableBundleAsset<Sprite>("Mayor.png", Icons);
+    public static readonly LoadableAsset<Sprite> Silenced = new LoadableResourceAsset("TORWLaunchpad.Resources.Silenced.png");
     
     // UI Buttons
     public static readonly LoadableAsset<Sprite> PListActive = new LoadableResourceAsset("TORWLaunchpad.Resources.PlayerListActive.png");

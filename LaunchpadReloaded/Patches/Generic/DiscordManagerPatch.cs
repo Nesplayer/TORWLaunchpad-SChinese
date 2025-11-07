@@ -27,8 +27,10 @@ namespace LaunchpadReloaded.Patches.Generic
             {
                 return true;
             }
-
+            
+            #if !ANDROID
             InitializeDiscord(__instance);
+            #endif
             return false;
         }
 
@@ -73,7 +75,8 @@ namespace LaunchpadReloaded.Patches.Generic
                 Debug.LogError($"Discord RPC activity update failed: {e.Message}\n{e.StackTrace}");
             }
         }
-
+        
+        #if !ANDROID
         private static void InitializeDiscord(DiscordManager __instance)
         {
             __instance.presence = new Discord.Discord(ClientId, 1UL);
@@ -87,5 +90,6 @@ namespace LaunchpadReloaded.Patches.Generic
             }));
             __instance.SetInMenus();
         }
+        #endif
     }
 }

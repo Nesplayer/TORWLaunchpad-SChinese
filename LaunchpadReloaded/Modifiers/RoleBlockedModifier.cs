@@ -1,19 +1,34 @@
+using System;
 using System.Collections;
-using System.Linq;
 using LaunchpadReloaded.Options.Roles.Coven;
 using MiraAPI.GameOptions;
 using MiraAPI.Modifiers;
 using MiraAPI.Modifiers.Types;
 using Reactor.Utilities;
 using UnityEngine;
-using UnityEngine.UI;
+using LaunchpadReloaded.Components;
+using LaunchpadReloaded.Features;
+using LaunchpadReloaded.Utilities;
+using Object = UnityEngine.Object;
 
 namespace LaunchpadReloaded.Modifiers;
 
 public class RoleBlockedModifier : TimedModifier
 {
     public override string ModifierName => "Role Blocked";
+
+    public override string GetDescription() => $"You are role blocked for " +
+                                               $"{Math.Round(TimeRemaining, 0)}s/{OptionGroupSingleton<TavernKeeperOptions>.Instance.RoleBlockDuration}s";
+
     public override float Duration => OptionGroupSingleton<TavernKeeperOptions>.Instance.RoleBlockDuration;
+    
+    private readonly PlayerTag _roleBlockedTag = new()
+    {
+        Name = "RoleBlockedTag",
+        Text = "Role Blocked",
+        Color = LaunchpadPalette.TavernKeeperColor,
+        IsLocallyVisible = _ => true,
+    };
 
     public override void OnMeetingStart()
     {
@@ -22,6 +37,19 @@ public class RoleBlockedModifier : TimedModifier
 
     public override void OnActivate()
     {
+        var tagManager = Player!.GetTagManager();
+
+        if (tagManager != null)
+        {
+            var existingTag = tagManager.GetTagByName(_roleBlockedTag.Name);
+            if (existingTag.HasValue)
+            {
+                tagManager.RemoveTag(existingTag.Value);
+            }
+
+            tagManager.AddTag(_roleBlockedTag);
+        }
+        
         if (Player == PlayerControl.LocalPlayer)
         {
             Coroutines.Start(coroutine: DoAnimation(true));
@@ -51,6 +79,13 @@ public class RoleBlockedModifier : TimedModifier
     }
     public override void OnDeactivate()
     {
+        var tagManager = Player?.GetTagManager();
+
+        if (tagManager != null)
+        {
+            tagManager.RemoveTag(_roleBlockedTag);
+        }
+        
         if (Player == PlayerControl.LocalPlayer)
         {
             Coroutines.Start(DoAnimation(false));

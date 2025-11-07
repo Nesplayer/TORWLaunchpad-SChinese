@@ -1,5 +1,6 @@
 ﻿using HarmonyLib;
 using UnityEngine;
+using UnityEngine.Video;
 using LaunchpadReloaded.Features;
 
 namespace LaunchpadReloaded.Patches;
@@ -21,6 +22,27 @@ public static class LogoPatch
         {
             sizer.GetComponent<AspectSize>().PercentWidth = 0.3f;
         }
+        
+        var lpanel = GameObject.Find("LeftPanel");
+
+        if (lpanel != null)
+        {
+            lpanel.GetComponent<SpriteRenderer>().color = new Color(0f, 0f, 0.636f, 1f);
+        }
+        
+        var rpanel = GameObject.Find("RightPanel");
+
+        if (rpanel != null)
+        {
+            rpanel.GetComponent<SpriteRenderer>().color = new Color(0f, 0f, 0.5f, 1f);
+        }
+
+        var divider = GameObject.Find("Divider");
+
+        if (divider != null)
+        {
+            divider.GetComponent<SpriteRenderer>().color = new Color(0f, 0f, 0.3742f, 1f);
+        }
 
         var menuBg = GameObject.Find("BackgroundTexture");
 
@@ -28,7 +50,7 @@ public static class LogoPatch
         {
             var render = menuBg.GetComponent<SpriteRenderer>();
             render.flipY = true;
-            render.color = new Color(1f, 1f, 1f, 0.65f);
+            render.color = new Color(0f, 0.6348f, 0.9392f, 1f);
         }
 
         var tint = GameObject.Find("MainUI").transform.GetChild(0).gameObject;
