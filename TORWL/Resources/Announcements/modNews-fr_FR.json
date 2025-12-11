@@ -1,0 +1,208 @@
+ {
+  "News": [
+    {
+      "Date": "2025-04-16T12:50:00Z",
+      "Number": "100001",
+      "ShortTitle": "★ TOR-W: L v1.0.0 ★",
+      "SubTitle": "Première version !",
+      "Title": "TOR-W: Launchpad v1.0.0",
+      "Text": [
+        "\r<b> La première version !</b>",
+        "\n\n★<b>└ Ajouté ┐</b> :",
+        "\n★ Ajout de 17 couleurs.",
+        "\n★ Ajout du rôle Traître.",
+        "\n\n♦♦ Merci d’avoir téléchargé et joué à TOR-W : L ! ♦♦"
+      ]
+    },
+    {
+      "Date": "2025-04-18T12:50:00Z",
+      "Number": "100002",
+      "ShortTitle": "★ TOR-W: L v1.0.1 ★",
+      "SubTitle": "Corrections de bugs et plus…",
+      "Title": "TOR-W: Launchpad v1.0.1",
+      "Text": [
+        "\r\n<b>└ Ajouté ┐</b> :",
+        "\n★ Ajout du rôle Caméléon.",
+        "\n★ Ajout du rôle Téléporteur.",
+        "\n\n<b>└ Mis à jour ┐</b> :",
+        "\n★ Mise à jour des cosmétiques du modificateur V.I.P.",
+        "\n\n<b>└ Bugs ┐</b> :",
+        "\n★ Le rôle Hacker empêchait les joueurs de dé-hacker les nœuds.",
+        "\n★ Le modificateur Géant faisait sortir le joueur des limites en grimpant aux échelles.",
+        "\n\n♦♦ Merci d’avoir téléchargé et joué à TOR-W : L ! ♦♦"
+      ]
+    },
+    {
+      "Date": "2025-05-9T12:50:00Z",
+      "Number": "100003",
+      "ShortTitle": "★ TOR-W: L v1.1.0 ★",
+      "SubTitle": "Nouvelle version !",
+      "Title": "TOR-W: Launchpad v1.1.0",
+      "Text": [
+        "\r\n<b>└ Ajouté ┐</b> :",
+        "\n★ Ajout du rôle Caméléon.",
+        "\n★ Ajout du rôle Téléporteur.",
+        "\n★ Mise à jour des cosmétiques du modificateur V.I.P.",
+        "\n★ Ajout du rôle Exécuteur.",
+        "\n★ Ajout du rôle Tueur Neutre comme rôle modèle.",
+        "\n\n<b>└ Fonctionnalités ┐</b> :",
+        "\n★ Mise à jour de \"Rôles Crewmate\" en \"♦ Rôles Crewmate ♦\" et ainsi de suite pour les autres.",
+        "\n\n<b>└ Bugs ┐</b> :",
+        "\n★ Le rôle Hacker empêchait les joueurs de dé-hacker les nœuds.",
+        "\n★ Le modificateur Géant faisait sortir le joueur des limites en grimpant aux échelles.",
+        "\n\n♦♦ Merci d’avoir téléchargé et joué à TOR-W : L ! ♦♦"
+      ]
+    },
+    {
+      "Date": "2025-07-10T12:50:00Z",
+      "Number": "100004",
+      "ShortTitle": "★ TOR-W: L v1.1.1 ★",
+      "SubTitle": "Corrections de bugs et plus…",
+      "Title": "TOR-W: Launchpad v1.1.1",
+      "Text": [
+        "\r\n<b>└ Ajouté ┐</b> :",
+        "\n★ Modificateur Appât (@WanderingPix) - Votre tueur s’auto-signale lorsque vous êtes tué.",
+        "\n★ Modificateur Torche (Modificateur LPR) - Vous pouvez voir même lorsque les lumières sont éteintes.",
+        "\n\n<b>└ Mis à jour ┐</b> :",
+        "\n★ Tueur Neutre - Tuez tout le monde. Ça semble simple ?",
+        "\n\n<b>└ Fonctionnalités ┐</b> :",
+        "\n★ Modifications du menu - Ajout de couleurs pour les menus dans les paramètres.",
+        "\n\n<b>└ Abandonné ┐</b> :",
+        "\n★ Suppression du Caméléon.",
+        "\n\n<b>└ Bugs ┐</b> :",
+        "\n★ Le rôle Hacker empêchait les joueurs de dé-hacker les nœuds (presque corrigé).",
+        "\n★ Le modificateur Géant faisait sortir le joueur des limites en grimpant aux échelles.",
+        "\n\n♦♦ Merci d’avoir téléchargé et joué à TOR-W : L ! ♦♦"
+      ]
+    },
+    {
+      "Date": "2025-07-13T12:50:00Z",
+      "Number": "100005",
+      "ShortTitle": "★ TOR-W: L v1.1.2 ★",
+      "SubTitle": "Mises à jour des fonctionnalités",
+      "Title": "TOR-W: Launchpad v1.1.2",
+      "Text": [
+        "\rCette mise à jour ajoute quelques modifications du menu et des options de sélection de rôles. Comme la possibilité de choisir combien de fois un modificateur peut apparaître par partie, et plus encore !",
+        "\n\n<b>└ Ajouté ┐</b> :",
+        "\n★ Ajout d’annonces personnalisées.",
+        "\n★ Ajout d’icônes pour les modificateurs.",
+        "\n\n<b>└ Mis à jour ┐</b> :",
+        "\n★ Bouton de mise à mort du Tueur Neutre.",
+        "\n\n<b>└ Prévu ┐</b> :",
+        "\n★ Wiki en jeu (Idée de Town Of Us : Mira).",
+        "\n★ Lanceur TOR-W : L (Idée du serveur All Of Us).",
+        "\n★ Publication automatique des codes (Idée de EHR [mod Host Only]).",
+        "\n★ Traductions (Idée proposée par @WanderingPix).",
+        "\n\n<b>└ Fonctionnalités ┐</b> :",
+        "\n★ Modifications du menu - Ajout de couleurs pour les menus dans les paramètres.",
+        "\n\n<b>└ Bugs ┐</b> :",
+        "\n★ Le rôle Hacker empêchait les joueurs de dé-hacker les nœuds (presque corrigé).",
+        "\n★ Le modificateur Géant faisait sortir le joueur des limites en grimpant aux échelles.",
+        "\n\n♦♦ Merci d’avoir téléchargé et joué à TOR-W : L ! ♦♦"
+      ]
+    },
+    {
+      "Date": "2025-07-18T12:50:00Z",
+      "Number": "100006",
+      "ShortTitle": "★ TOR-W: L Dev Builds ★",
+      "SubTitle": "Mises à jour futures",
+      "Title": "TOR-W: Launchpad v1.2.0 Dev-1 & Dev-2",
+      "Text": [
+        "\rCeci n’est <b>PAS</b> les notes de version finales de la v1.2.0 !!! Juste quelques ajouts faits dans Dev-1 & Dev-2.",
+        "\n\n<b>└ Ajouté ┐</b> :",
+        "\n★ Ajout de Fée Sombre (WIP).",
+        "\n★ Ajout du Tavernier (anciennement Witch Doctor renommé).",
+        "\n★ Ajout du modificateur Explosion.",
+        "\n★ Ajout d’icônes de modificateurs.",
+        "\n\n<b>└ Mis à jour ┐</b> :",
+        "\n★ Bouton de mise à mort du Tueur Neutre.",
+        "\n\n<b>└ Prévu ┐</b> :",
+        "\n★ Wiki en jeu (Idée de Town Of Us : Mira).",
+        "\n★ Lanceur TOR-W : L (Idée du serveur All Of Us).",
+        "\n★ Publication automatique des codes (Idée de EHR [mod Host Only]).",
+        "\n★ Traductions (Idée proposée par @WanderingPix).",
+        "\n\n<b>└ Bugs ┐</b> :",
+        "\n★ Le rôle Hacker empêchait les joueurs de dé-hacker les nœuds (presque corrigé).",
+        "\n★ Le modificateur Géant faisait sortir le joueur des limites en grimpant aux échelles.",
+        "\n\n♦♦ Merci d’avoir téléchargé et joué à TOR-W : L ! ♦♦"
+      ]
+    },
+    {
+      "Date": "2025-11-1T12:50:00Z",
+      "Number": "100007",
+      "ShortTitle": "★ TOR-W: L v2.0-r ★",
+      "SubTitle": "Nouvelles mises à jour et fonctionnalités",
+      "Title": "TOR-W: Launchpad v2.0-r",
+      "Text": [
+        "\rVeuillez noter que le mod dans Among Us affiche '2.0.0-r' et non '2.0-r'. Ce n’est <b>PAS</b> une erreur, il doit être chargé ainsi dans Among Us, sinon la compilation échoue.\n\nMerci.",
+        "\n\n<b>└ Ajouté ┐</b> :",
+        "\n★ Ajout de TOR-W : L à Starlight pour les joueurs mobiles.",
+        "\n★ Ajout du nouveau logo TOR-W : L.",
+        "\n★ Ajout de nouvelles icônes pour les boutons du menu principal pour Halloween (du 1er au 7 novembre).",
+        "\n\n<b>└ En cours ┐</b> :",
+        "\n★ Lanceur TOR-W : L (Idée du serveur All Of Us).",
+        "\n\n<b>└ Changements ┐</b> :",
+        "\n★ Changement de la version de v2.2.0 à v2.0-r (plus d’infos dans le serveur Discord).",
+        "\n★ Changement de l’icône des actualités dans les annonces.",
+        "\n\n<b>└ Prévu ┐</b> :",
+        "\n★ Wiki en jeu (Idée de Town Of Us : Mira).",
+        "\n★ Traductions (Idée proposée par @WanderingPix).",
+        "\n★ Nouvelles icônes de boutons pour Noël (du 20 nov au 26 déc).",
+        "\n★ Nouveau rôle « Silencer ».",
+        "\n\n<b>└ Retiré ┐</b> :",
+        "\n★ Suppression du rôle Hacker.",
+        "\n★ Suppression du rôle Capitaine.",
+        "\n★ Suppression du modificateur Petit.",
+        "\n★ Suppression du modificateur Géant.",
+        "\n★ Suppression du modificateur Champ Gravitationnel.",
+        "\n\n♦♦ Merci d’avoir téléchargé et joué à TOR-W : L ! ♦♦"
+      ]
+    },
+    {
+      "Date": "2025-11-7T12:50:00Z",
+      "Number": "100008",
+      "ShortTitle": "★ TOR-W: L v2.0-f ★",
+      "SubTitle": "Nouvelles fonctionnalités",
+      "Title": "TOR-W: Launchpad v2.0-f",
+      "Text": [
+        "\n\n<b>└ Ajouté ┐</b> :",
+        "\n★ Un nouveau rôle : Silencer (80% terminé).",
+        "\n★ Ajout d’étiquettes visibles pour Role Blocked et Silenced.",
+        "\n\n<b>└ Changements ┐</b> :",
+        "\n★ Retour de l’icône d’actualités normale (fin d’Halloween).",
+        "\n\n<b>└ En cours ┐</b> :",
+        "\n★ Lanceur TOR-W : L (Idée du serveur All Of Us).",
+        "\n\n<b>└ Prévu ┐</b> :",
+        "\n★ Wiki en jeu (Idée de Town Of Us : Mira).",
+        "\n★ Traductions à partir de v2.2-r (Idée proposée par @WanderingPix).",
+        "\n★ Nouvelles icônes pour Noël (du 20 nov au 26 déc).",
+        "\n\n♦♦ Merci d’avoir téléchargé et joué à TOR-W : L ! ♦♦"
+      ]
+    },
+    {
+      "Date": "2025-12-10T12:50:00Z",
+      "Number": "100009",
+      "ShortTitle": "★ TOR-W: L v2.1-r ★",
+      "SubTitle": "Nouvelle version !",
+      "Title": "TOR-W: Launchpad v2.1-r",
+      "Text": [
+        "\n\n<b>└ Ajouté ┐</b> :",
+        "\n★ Quatre nouveaux rôles :\n♦ Silencer.\n♦ Toxifieur.\n♦ Poltergeist.\n♦ Survivant.",
+        "\n★ Ajout de notifications publiques lorsqu’un joueur réduit au silence est toxifié.",
+        "\n★ Ajout de trois nouveaux sons pour Toxifieur, Poltergeist et Tavernier.",
+        "\n★ Ajout d’icônes pour tous les boutons.",
+        "\n★ Ajout d’icônes de rôle à côté des noms en jeu.",
+        "\n★ Ajout de 20 nouvelles couleurs.",
+        "\n★ Ajout de noms de modificateurs colorés.",
+        "\n\n<b>└ Changements ┐</b> :",
+        "\n★ Changement des couleurs de tous les boutons (pas dans le menu des rôles).",
+        "\n★ Changement des icônes de tous les rôles.",
+        "\n\n<b>└ En cours ┐</b> :",
+        "\n★ Lanceur TOR-W : L (Idée du serveur All Of Us) = 80% terminé.",
+        "\n\n<b>└ Prévu ┐</b> :",
+        "\n★ Traductions à partir de v2.2-r (Idée proposée par @WanderingPix).",
+        "\n\n♦♦ Merci d’avoir téléchargé et joué à TOR-W : L ! ♦♦"
+      ]
+    }
+  ]
+}
