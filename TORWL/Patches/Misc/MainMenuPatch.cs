@@ -7,7 +7,7 @@ using System;
 using Rewired.Platforms.Custom;
 using MiraAPI.Utilities;
 
-namespace TORWL.Patches
+namespace TORWL.Patches.Misc
 {
     [HarmonyPatch(typeof(MainMenuManager), nameof(MainMenuManager.Start))]
     public static class MainMenuPatch

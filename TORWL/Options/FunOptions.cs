@@ -19,6 +19,9 @@ public class FunOptions : AbstractOptionGroup
     [ModdedToggleOption("Friendly Fire")]
     public bool FriendlyFire { get; set; } = false;
 
+    [ModdedToggleOption("Colorful Chat Bubbles")]
+    public bool ColorfulBubbles { get; set; } = false;
+
     public ModdedToggleOption UniqueColors { get; } = new("Unique Colors", true)
     {
         ChangedEvent = value =>

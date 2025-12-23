@@ -2,7 +2,7 @@ using HarmonyLib;
 using TMPro;
 using UnityEngine;
 
-namespace TORWL.Patches;
+namespace TORWL.Patches.Misc;
 
 [HarmonyPatch(typeof(MeetingHud))]
 public static class ShowHostMeetingPatch

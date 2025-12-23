@@ -20,20 +20,4 @@ public sealed class FlashModifier : LPModifier
     {
         return "You are faster than other players!";
     }
-
-    public override void OnActivate()
-    {
-        if (Player != null)
-        {
-            Player.MyPhysics.Speed /= 0.75f;
-        }
-    }
-
-    public override void OnDeactivate()
-    {
-        if (Player != null)
-        {
-            Player.MyPhysics.Speed *= 0.75f;
-        }
-    }
 }

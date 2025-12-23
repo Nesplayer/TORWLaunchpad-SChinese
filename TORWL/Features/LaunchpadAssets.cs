@@ -83,6 +83,9 @@ public static class LaunchpadAssets
     
     // Banners
     public static readonly LoadableAsset<Sprite> TORWBanner = new LoadableResourceAsset("TORWLaunchpad.Resources.Banner.png");
+
+    // CovenFile
+    public static readonly LoadableAsset<Sprite> CovenFile = new LoadableResourceAsset("TORWLaunchpad.Resources.CovenFile.png");
     
     // Modifier Icons
     public static readonly LoadableAsset<Sprite> BaitIcon = new LoadableBundleAsset<Sprite>("Bait.png", Icons);
@@ -97,6 +100,7 @@ public static class LaunchpadAssets
     // UI Buttons
     public static readonly LoadableAsset<Sprite> PListActive = new LoadableResourceAsset("TORWLaunchpad.Resources.PlayerListActive.png");
     public static readonly LoadableAsset<Sprite> PListInactive = new LoadableResourceAsset("TORWLaunchpad.Resources.PlayerListInactive.png");
+    public static readonly LoadableAsset<Sprite> IconBackground = new LoadableResourceAsset("TORWLaunchpad.Resources.Background.png");
     public static readonly LoadableAsset<Sprite> NotepadSprite = new LoadableBundleAsset<Sprite>("NotepadButton.png", Bundle);
     public static readonly LoadableAsset<Sprite> NotepadActiveSprite = new LoadableBundleAsset<Sprite>("NotepadButtonActive.png", Bundle);
 

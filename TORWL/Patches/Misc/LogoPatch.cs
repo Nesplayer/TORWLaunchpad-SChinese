@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Video;
 using TORWL.Features;
 
-namespace TORWL.Patches;
+namespace TORWL.Patches.Misc;
 
 [HarmonyPatch(typeof(MainMenuManager), nameof(MainMenuManager.Start))]
 public static class LogoPatch

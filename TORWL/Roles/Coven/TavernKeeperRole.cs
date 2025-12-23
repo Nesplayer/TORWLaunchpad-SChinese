@@ -20,6 +20,7 @@ public class TavernKeeperRole(System.IntPtr ptr) : RoleBehaviour(ptr), ICovenRol
     {
         CanGetKilled = true,
         Icon = LaunchpadAssets.TavernKeeper,
+        FreeplayFolder = "Coven",
     };
 
     public override void AppendTaskHint(StringBuilder taskStringBuilder)

@@ -16,7 +16,7 @@ using Reactor.Utilities;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace TORWL.Patches;
+namespace TORWL.Patches.Misc;
 
 // code credit https://github.com/Yumenopai/TownOfHost_Y
 [HarmonyPatch]
@@ -81,7 +81,7 @@ public static class ModNewsFetcher
         }
 
         downloaded = true;
-         ModNewsURL += TranslationController.Instance.currentLanguage.languageID switch
+        /*ModNewsURL += TranslationController.Instance.currentLanguage.languageID switch
         {
             SupportedLangs.German => "de_DE.json",
             SupportedLangs.Latam => "es_419.json",
@@ -97,7 +97,8 @@ public static class ModNewsFetcher
             SupportedLangs.SChinese => "zh_CN.json",
             SupportedLangs.TChinese => "zh_TW.json",
             _ => "en_US.json", //English and any other unsupported language
-        };
+        };*/
+        ModNewsURL += "en_US.json";
         var request = UnityWebRequest.Get(ModNewsURL);
         yield return request.SendWebRequest();
         if (request.isNetworkError || request.isHttpError)
@@ -147,7 +148,7 @@ public static class ModNewsFetcher
 
     private static void LoadModNewsFromResources()
     {
-        string filename = TranslationController.Instance.currentLanguage.languageID switch
+        /*string filename = TranslationController.Instance.currentLanguage.languageID switch
         {
             SupportedLangs.German => "de_DE.json",
             SupportedLangs.Latam => "es_419.json",
@@ -163,8 +164,8 @@ public static class ModNewsFetcher
             SupportedLangs.SChinese => "zh_CN.json",
             SupportedLangs.TChinese => "zh_TW.json",
             _ => "en_US.json", //English and any other unsupported language
-        };
-
+        };*/
+        var filename = "en_US.json";
         var assembly = Assembly.GetExecutingAssembly();
         using var resourceStream =
             assembly.GetManifestResourceStream("TORWL.Resources.Announcements.modNews-" + filename)
